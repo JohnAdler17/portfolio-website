@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="../style.css">
-
+    <script src="../carousel.js" type="text/javascript" defer></script>
     <title>JCA's Art</title>
   </head>
 
@@ -17,32 +17,34 @@
         <a href="art.html" class="buttonbox flex-item"><div class="buttontext">Art</div></a>
       </div>
 
-      <div class="imageslider">
-        <div class="slider">
-          <div class="images">
-            <input type="radio" name="slide" id="img1" checked>
-            <input type="radio" name="slide" id="img2">
-            <input type="radio" name="slide" id="img3">
-            <input type="radio" name="slide" id="img4">
-            <input type="radio" name="slide" id="img5">
+      <section aria-label="Newest Photos">
+        <div class="carousel-container">
 
-            <img src="../images/1.jpg" class="m1" alt="img1">
-            <img src="../images/2.jpg" class="m2" alt="img2">
-            <img src="../images/3.jpg" class="m3" alt="img3">
-            <img src="../images/4.jpg" class="m4" alt="img4">
-            <img src="../images/jackson-square.jpg" class="m5" alt="img5">
+          <div class="carousel flex-item" data-carousel>
+            <button class="carousel-button prev" data-carousel-button=prev>&#8656;</button>
+            <button class="carousel-button next" data-carousel-button=next>&#8658;</button>
+            <ul data-slides>
+              <li class="slide" data-active>
+                <img src="../images/1.jpg" alt="NI1">
+              </li>
+              <li class="slide">
+                <img src="../images/2.jpg" alt="NI1">
+              </li>
+              <li class="slide">
+                <img src="../images/3.jpg" alt="NI1">
+              </li>
+              <li class="slide">
+                <img src="../images/4.jpg" alt="NI1">
+              </li>
+              <li class="slide">
+                <img src="../images/jackson-square.jpg" alt="NI1">
+              </li>
+            </ul>
           </div>
-          <div class="dots">
-            <label for="img1"></label>
-            <label for="img2"></label>
-            <label for="img3"></label>
-            <label for="img4"></label>
-            <label for="img5"></label>
-          </div>
+
         </div>
-      </div>
 
-      <div class="bufferdiv" style="height:500px"></div>
+      </section>
 
       <div class="menubox flex-container" style="position: relative; bottom: -21px; justify-content: center; align-items: center;">
           <div class="flex-item" style="margin: 10px;">
