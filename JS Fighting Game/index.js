@@ -166,11 +166,11 @@ const vic = new Fighter({
       framesMax: 7
     },
     crouchleftHold: {
-      imageSrc: './Assets/Vic/crouch-left-Hold.png',
+      imageSrc: './Assets/Vic/crouch-left-hold.png',
       framesMax: 1
     },
     crouchrightHold: {
-      imageSrc: './Assets/Vic/crouch-right-Hold.png',
+      imageSrc: './Assets/Vic/crouch-right-hold.png',
       framesMax: 1
     },
     idleLeft: {
